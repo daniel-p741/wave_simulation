@@ -3,8 +3,7 @@
 
 # Installation Guide
 
-# 1. Node.js
-Have node.js installed from [here](https://nodejs.org/en/download/current) for npm.
+# 1. Have node.js installed from [here](https://nodejs.org/en/download/current) for npm.
 
 # 2. Install http-server in cmd with 'npm install -g http-server'. 
 
