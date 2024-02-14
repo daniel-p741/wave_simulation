@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Water Wave Simulation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+    <div class="slider-container">
+        <label for="Velocity" class="slider-label">Droplet Velocity:</label>
+        <input type="range" id="Velocity" name="Velocity" min="0" max="20" value="10.8" step="0.1" class="slider">
+        <span id="VelocityValue">10.8</span> m/s
+    </div>
+
+    <div class="slider-container" style="left: 280px">
+        <label for="Amplitude" class="slider-label">Wave Amplitude:</label>
+        <input type="range" id="Amplitude" name="Amplitude" min=".1" max="5" value="1.2" step="0.1" class="slider">
+        <span id="AmplitudeValue">1.2</span> m/s
+    </div>
+
+    <!-- Include three.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+    <!-- Include your index.js file -->
+    <script src="index.js"></script>
+</body>
+
+</html>
